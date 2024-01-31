@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='vercelKV',
-    version='0.0.1',
+    version='0.1.10',
     author='Pyry Helin',
     author_email='pyr.hel@gmail.com',
     description='rest api for vercel kv',

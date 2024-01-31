@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='firestore',
-    version='0.1.0',
+    version='0.1.10',
     author='Pyry Helin',
     author_email='pyr.hel@gmail.com',
     description='clickup api wrapper',
