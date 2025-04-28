@@ -2,7 +2,7 @@ import setuptools
 
 setuptools.setup(
     name='clickup',
-    version='0.1.10',
+    version='0.1.11',
     author='Pyry Helin',
     author_email='pyr.hel@gmail.com',
     description='clickup api wrapper',

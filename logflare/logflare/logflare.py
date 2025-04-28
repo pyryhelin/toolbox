@@ -65,6 +65,9 @@ class LogflareLogger:
             self.timer.start()
 
     def flush(self):
+        if self.timer and self.timer.is_alive():
+            self.timer.cancel()
+        
         if len(self.buffer) > 0:
             print("Flushing")
             print({
